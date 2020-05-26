@@ -1,0 +1,298 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Л'ЭТУАЛЬ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@100&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+<style>
+  .navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    }
+  <head></head>
+    <meta charset="utf-8">
+    <style>
+      .navbar-default {
+          background-color: #F5F5F5;
+          border-color: #F5F5F5;
+
+        }
+        .topmenu
+        {
+          width:100%;
+          background-color:#F5F5F5;
+
+        }
+        .topmenu ul
+          {
+            list-style-type: none;
+            padding-left:0;
+            padding-right:0;
+            margin:0 auto;
+            width:100%;
+            text-align:center;
+            background-color:#F5F5F5;
+          }
+          .topmenu ul li
+          {
+            display:inline-block;
+          }
+          .topmenu li
+          {
+
+            display:block;
+            float: left;
+            padding: 20px;
+            font-family:  "Helvetica""HCo Gotham";
+            background-color:#F5F5F5;
+
+          }
+          .topmenu li a
+          {
+            color:#000000;
+            padding: 10px 5px
+          }
+          .menu
+          {
+            color:#F5F5F5;
+            width: 100%;
+            background-color:#F5F5F5;
+          }
+         .catalog-left-side
+         {
+                padding: 15px 40px;
+         }
+         .menu-blocks
+         {
+           padding: 10px 10px;
+         }
+         .menu-blocks ul li
+         {
+             display:inline-block;
+             margin-top: 10px;
+
+         }
+
+         .menu-header
+         {
+              padding: 5px 5px 5px 0px;
+              font-family:  "Helvetica", "HCo Gotham";
+              font-size: 20px;
+              color: #000000;
+              text-decoration:none;
+              font-weight: 600;
+              padding: 38px;
+         }
+
+
+         .menuitems
+         {
+
+           font-family:  "Bebas2";
+           font-size: 18px;
+           color: #000000;
+           padding: 10px 0px;
+           margin-top: 10px
+           font-weight: 400
+         }
+         .feedback
+         {
+           margin-top: 20px;
+           margin-bottom: 20px;
+
+         }
+
+         .leftpart
+         {
+           width: 30%;
+         }
+         .rightpart
+         {
+           width: 70%;
+           font-family: 'Open Sans', sans-serif;
+           font-size: 20px;
+         }
+         .insidepody-toname
+         {
+           width: 80%;
+           padding: 12px 14px;
+            margin-top: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 45px;
+            font-weight: lighter;
+            color: grey;
+         }
+         .insidebody-date
+         {
+           font-family: 'Roboto', sans-serif;
+            width: 20%;
+            font-size: 20px;
+              margin-top: 45px;
+            padding: 10px;
+         }
+         .chechboxes
+         {
+           width: 100%;
+
+         }
+         .left-s
+         {
+           width: 100%;
+             padding: 10px;
+         }
+         .right-s
+         {
+           width: 10%;
+         }
+         .box2
+         {
+           width: 50%;
+           padding: 10px;
+         }
+
+         .center {
+    text-align: center;
+  }
+
+    </style>
+    <title>
+        </title>
+        <body>
+    <header>
+      <nav>
+
+  <img src="{% static 'images/панелька.jpg' %}" alt="">
+
+  </nav>
+    </header>
+          </body>
+
+          <div class = "topmenu">
+          <ul class="full-width">
+            <li><a  href="#">Акции</a></li>
+            <li><a href="#">Пока ты дома</a></li>
+            <li><a href="#">Scent Bibilotheque</a></li>
+            <li><a href="#">Макияж</a></li>
+            <li><a href="#">Парфюмерия</a></li>
+            <li><a href="#">Уход за кожей</a></li>
+            <li><a href="#">Уход за волосами</a></li>
+            <li><a href="#">Мужчинам</a></li>
+            <li><a href="#">Аксессуары</a></li>
+            <li><a href="#">Детям</a></li>
+            <li><a href="#">Подарки</a></li>
+            <li><a href="#">Бренды</a></li>
+          </ul>
+          </div>
+          <div class="row">
+            <div class="leftpart">
+          <aside class="leftmen">
+          <div class="catalog-left-side">
+            <div class="menu-blocks">
+            <a class = "menu-header" href="#">Публикации</a>
+            <ul>
+            <li><a class="menuitems" href="#">НОВОСТИ Л'ЭТУАЛЬ</a></li><br/>
+            <li><a class="menuitems" href="#">ВЫБОР НЕДЕЛИ</a></li><br/>
+            </ul>
+            </div>
+            <div class="menu-blocks">
+            <a class = "menu-header" href="#">О Л'ЭТУАЛЬ</a>
+            <ul>
+            <li><a class="menuitems" href="#">НАЙТИ МОЙ МАГАЗИН</a></li><br/>
+            <li><a class="menuitems" href="#">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</a></li><br/>
+            <li><a class="menuitems" href="#">ПАРТНЕРСКАЯ ПРОГРАММА</a></li><br/>
+            <li><a class="menuitems" href="#">ТРЕБОВАНИЕ К ФОРМАТАМ БАННЕРОВ</a></li><br/>
+            <li><a class="menuitems" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a></li><br/>
+            </ul>
+            </div>
+            <div class="menu-blocks">
+            <a class = "menu-header" href="#">ПОМОЩЬ ПОКУПАТЕЛЮ</a>
+            <ul>
+            <li><a class="menuitems" href="#">КАРТЫ КЛИЕНТА</a></li><br/>
+            <li><a class="menuitems" href="#">ПРОВЕРИТЬ БАЛАНС КАРТЫ</a></li><br/>
+            <li><a class="menuitems" href="#">СПОСОБЫ ОПЛАТЫ</a></li><br/>
+            <li><a class="menuitems" href="#">ДОСТАВКА ЗАКАЗОВ</a></li><br/>
+            <li><a class="menuitems" href="#">ПОЛИТИКА ВОЗВРАТА</a></li><br/>
+            <li><a class="menuitems" href="#">ОБРАТНАЯ СВЯЗЬ</a></li><br/>
+            <li><a class="menuitems" href="#">СОГЛАШЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ</a></li><br/>
+            <li><a class="menuitems" href="#">УСЛОВИЯ ПРОДАЖИ</a><br/>
+            </ul>
+            </div>
+          </div>
+          </aside>
+          </div>
+<div class="rightpart">
+            <h1 class="feedback"> Отзывы </h1>
+ <div>
+   Здесь вы можете отправить личное сообщение в адрес редакции сайта. Мы внимательно ознакомимся со всеми
+   вашими пожеланиями
+ </div>
+ {% if latest_comm_list %}
+   {% for a in latest_comm_list %}
+         <div class="row">
+         <div class="insidepody-toname">
+             <p> {{a.Name}} </p>
+         </div>
+         <div class="insidebody-date">
+          <p> {{a.dt}}</p>
+         </div>
+       </div>
+       <p>{{a.Body}}</p>
+       {% endfor %}
+    {% else %}
+    <p>Комментариев нет. Будьте первым, кто оставить комментарий! </p>
+{% endif %}
+
+       <form action="" method="POST">
+         {% csrf_token %}
+         <input type="text" name="name" value="" required placeholder="Введите имя">
+        <input type="email" name="email" value="" required placeholder="Введите email">
+        <textarea name="body" rows="8" cols="95" required placeholder="Введите комментарий"> </textarea>
+        <div class="center">
+        <div class="chechboxes">
+          <div class="left-s"">
+            <div class="row">
+
+
+<div class="box2">
+  <label><input type="radio" checked name="like" value = "like" /> </label>
+</div>
+<div class="box2">
+  <label><input type="radio" checked name="like" value = "dislike"/> </label>
+</div>
+    </div>
+         </div>
+        </div>
+            <div class="left-s">
+              <div class="row">
+                <div class="box2">
+                    <img src="{% static 'images/like.png' %}" alt="">
+                </div>
+                <div class="box2">
+                  <img src="{% static 'images/dislike.png' %}" alt="">
+
+                </div>
+              </div>
+              </div>
+       <div class="center">
+    <button type="submit" name="button" align="center" >Отправить</button>
+     </div>
+     </div>
+       </div>
+
+
+       </form>
+
+
+
+
+
+
+
+</html>
